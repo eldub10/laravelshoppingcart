@@ -207,7 +207,7 @@ class Cart {
                 }
                 else
                 {
-                    $item[$key] += (int) $value;
+                    $item[$key] = (int) $value;
                 }
             }
             else
